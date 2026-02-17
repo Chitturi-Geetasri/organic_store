@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: aquamarine;
+}
+
+.nav-item .nav-link{
+    font-size: 400;
+}
+
+#Home{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOrXqud-0DxJU7hzP5WSFpaw3AXwoWHBHyg&s);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.organic{
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 3px 5px black;
+}
+
+.d-block{
+    width: 100%;
+    aspect-ratio: 3/1;
+}
+
+.fruits{
+    width: 80%;
+    aspect-ratio: 3/3;
+    margin-left: 10%;
+}

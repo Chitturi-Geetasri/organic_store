@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8HztSk1Kz9MNwdvl17cBLVJUa5C0EPpcLw&s">
+    <script src="https://kit.fontawesome.com/c6e224a7ba.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8HztSk1Kz9MNwdvl17cBLVJUa5C0EPpcLw&s"
+                    alt="" width="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home"><i
+                                class="fa-solid fa-house"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Products">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Payment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Debit/Credit</a></li>
+                            <li><a class="dropdown-item" href="#">COD</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="Home" style="margin-top: 5%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <h1 class="organic">Organic Store</h1>
+                    <button class="btn btn-success">Shop More </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h1 class="text-center mt-5 mb-5">About</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <!-- content -->
+                    <h1>Organic Store</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellendus quas velit. Facilis
+                        pariatur dolore nostrum tenetur. Cumque, adipisci officiis tempore itaque cupiditate magnam
+                        architecto eligendi harum iste quaerat culpa?</p>
+                    <button class="btn btn-success">View More</button>
+                </div>
+                <div class="col-12 col-md-6 mt-2">
+                    <!-- carousel -->
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://i.pinimg.com/736x/42/29/55/42295579d4fbf33376042a45ccd82c2f.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6iS65D5jCDe2hE9ApX_HMuS-sbh-vjOCFg&s" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5idg606oGkz3-N4jH7337AFjJh90lKL1Exw&s" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="Products">
+        <h1 class="text-center mt-5 mb-5">Products</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+                    <div class="card p-3">
+                        <img src="https://t3.ftcdn.net/jpg/01/39/57/98/360_F_139579875_x5jJX0QBhdjzDJbjB9abyHK6k0xDr1nf.jpg" alt="" class="fruits">
+                        <h4>₹40</h4>
+                        <h5>Apple</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+                    <div class="card p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchlj-A1BXS-O_w_PWX5xykDnZpVuPNn-y9Q&s" alt="" class="fruits">
+                        <h4>₹20</h4>
+                        <h5>Guava</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+                    <div class="card p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-CxTOmXQX9VwEksYHGYoN4-mIi1m_COTdYQ&s" alt="" class="fruits">
+                        <h4>₹50</h4>
+                        <h5>Watermelon</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center mb-3">
+                    <div class="card p-3">
+                        <img src="https://t3.ftcdn.net/jpg/05/34/11/00/360_F_534110041_QB9oR9B2V96botOHwsVR90nr1Db5gUph.jpg" alt="" class="fruits">
+                        <h4>₹60</h4>
+                        <h5>Musk Melon</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
