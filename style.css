@@ -3,7 +3,7 @@
 }
 
 .navbar{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 159);
 }
 
 .nav-item .nav-link{
@@ -32,4 +32,19 @@
     width: 80%;
     aspect-ratio: 3/3;
     margin-left: 10%;
+}
+
+.input-group .input-group-text{
+    background-color: rgb(127, 255, 159);
+    border: None;
+}
+
+#footer{
+    background-color: rgb(127, 255, 159);
+}
+
+.fa-brands{
+    color: blueviolet;
+    font-size: 20px;
+    margin-right: 10px;
 }
