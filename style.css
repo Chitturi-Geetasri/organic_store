@@ -11,7 +11,7 @@
 }
 
 #Home{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTOrXqud-0DxJU7hzP5WSFpaw3AXwoWHBHyg&s);
+    background-image: url(https://img.freepik.com/premium-psd/organic-food-top-view-grunge-background_23-2148322488.jpg);
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -44,7 +44,7 @@
 }
 
 .fa-brands{
-    color: blueviolet;
+    color: white;
     font-size: 20px;
     margin-right: 10px;
 }
